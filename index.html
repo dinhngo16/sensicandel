@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Sensi Candle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="icon" href="https://lh3.googleusercontent.com/tlexSkZcFi8GSM1tcrUMCNrDo0-okt_97aWp5t8yZ3agDdS0QAVYR-6R3aoYp4sZGfogr9K4ay4fatE8C17x2s6HclJD7IWRnEDc9SabKb4ysMIE">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+   <div id="main">
+    <div id="header">
+      <div id="menu_mobile" class="nav__bars-btn">
+        <i class="ti-menu"></i>
+      </div>
+      <ul id="nav" class="nav">
+        <li>
+          <p>Sensi Candle</p>
+        <li>
+        <li><a href="#"><i class="glyphicon glyphicon-home"></i>Trang chủ</a></li>
+        <li><a  href="#"><i class="glyphicon glyphicon-shopping-cart"></i>Sản phẩm<i class="ti-arrow-circle-down"></i></a>  
+          <ul class="subnav">
+            <li><a  href="#sanpham">Bộ sưu tập mới</a></li>
+            <li><a  href="#sanphammoi"> Mùi unisex</a></li>
+            <li><a  href="#muithom">Mùi thơm ngọt</a></li>
+          </ul>
+        </li>
+        <li><a  href=""><i class="glyphicon glyphicon-grain"></i>Phụ kiện</a></li>
+        <li><a  href="https://docs.google.com/forms/d/e/1FAIpQLSeyruRGykXy6LRSjRbwOFsZjv92XHa7x4MDpgI9Q54MINbYiA/viewform?usp=sf_link"><i class="glyphicon glyphicon-envelope"></i>Liên hệ</a></li>
+      </ul>
+      <div class="search-btn">
+          <input type="" name="" placeholder=" Tìm kiếm trên Sensi Candle">
+          <button class="nav_icon"><i class="ti-search"></i></button>
+      </div>
+    </div>
+    <div id="slider">
+      <div class="slider-list">
+        <img class="mySlides" src="slider/slider11.jpg">
+        <img class="mySlides" src="slider/slider13.jpg">
+        <img class="mySlides" src="slider/slider30.jpg">
+        <button class="ti-angle-left" onclick="plusDivs(-1)"></button>
+        <button class="ti-angle-right" onclick="plusDivs(1)" ></button>
+      </div>
+    </div>
+  
+    <!-- script slided -->
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+   
+
+    <!-- content -->
+    <div id="content">
+      <div class="content-section1">
+        <img class="content-img1" width="400" height="300" src="slider/slider17.jpg">
+        <div class="content-number">
+          <h1 class="content-1">Hey guys,</h1> <br/>
+         <div class="content-2">
+          <p >Sensi Candle is a true home for scent Lovers and sensitive Souls!</p> <br/>
+          <p >Everyone loves a warm, cozy atmosphere; peace and tranquility in a busy place. Soft light from scented candles that calm us down after a long day of work, ease our minds and treat our souls.</p>
+          <p >Love you!</p>
+         </div>
+        </div>
+      </div>
+
+      <!-- content-section2 -->
+
+      <div id="sanpham" class="content-section2">
+        <h1 class="content-a1">New Collection</h1>
+        <div class="places-list">
+
+          <div class="places-item">
+            <img  src="slider/slider1.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Cloudy In Love</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Gỗ linh sam, sage trắng, bạch đàn, xạ hương </li>
+                <li>Thể tích: 7.4  oz - 50  giờ đốt</li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 295.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider2.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Blooming</h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: Mẫu đơn bung nở và mùi hoa hồng</li>
+               <li>Thể tích: 7,4  oz - 50  giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 295.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+         </div>
+        
+          <div class="places-item">
+            <img  src="slider/slider5.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Floating You</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Black fig, Nho đen, quả Acai, Amber wood</li>
+                <li>Thể tích: 7,4  oz - 50  giờ đốt</li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 295.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider7.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Blow A Wish</h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: 5 loại hoa hồng Pháp và cỏ xạ hương</li>
+               <li>Thể tích: 7,4  oz - 50  giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 295.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+
+      
+
+      <div id="sanphammoi" class="content-section2">
+        <h1 class="content-a1">Candles Unisex</h1>
+        <div class="places-list">
+
+          <div class="places-item">
+            <img  src="slider/slider23.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">The Coffee</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Cà phê Arabica đặc trưng của vùng</li>
+                <li>Thể tích: 8.8  oz - 60  giờ đốt</li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 329.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider24.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Tobacco Noir</h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: Nho chuỗi ngọc, gỗ teak, hoắc hương</li>
+               <li>Thể tích: 12 oz - 50 giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 450.000 VNĐ</li>
+             </ul>
+             <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider9.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Fire Stove</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Gỗ đàn hương, mộc lan,  gỗ sồi, xạ hương</li>
+                <li>Thể tích: 8.8  oz - 70  giờ đốt</li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 329.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider6.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Midnight Sandalwood</h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: Gỗ đàn hương, tuyết tùng, lê, bạc hà, rêu</li>
+               <li>Thể tích: 7.4oz - 45 giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 275.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+        
+          
+
+      <div id="muithom" class="content-section2">
+        <h1 class="content-a1">Fruity scent collection</h1>
+        <div class="places-list">
+
+          <div class="places-item">
+            <img  src="slider/slider25.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Relaxing Lavender</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Hương thơm hoa Lavender và hoa cúc la mã</li>
+                <li>Thể tích: 7.0 oz - 45 giờ đốt</li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 275.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider26.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Baked Cinnamon Apple </h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: Yến mạch, đường nâu với táo và một chút quế</li>
+               <li>Thể tích: 8.8  oz - 70  giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 329.000 VNĐ</li>
+             </ul>
+             <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider19.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Juicy Peach & Nectarine</h3>
+              <ul class="pl-dect">
+                <li>Nốt hương: Hương trái hoa và trái xuân đào Úc</li>
+                <li>Thể tích: 8.8 oz - 45 giờ đốt </li>
+                <li>Bấc: 1 bấc sợi</li>
+                <li>Giá: 329.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+
+          <div class="places-item">
+            <img  src="slider/slider27.jpg" alt="Cloudy In Love" class="places-img">
+            <div class="places-number">
+              <h3 class="pl-heading">Blue Sapphire</h3>
+              <ul class="pl-dect">
+               <li>Nốt hương: Muối biển, hổ phách và huệ tây</li>
+               <li>Thể tích: 12 oz - 50 giờ đốt</li>
+               <li>Bấc: 1 bấc sợi</li>
+               <li>Giá: 430.000 VNĐ</li>
+              </ul>
+              <a href="#" class="pl-btn">Buy</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="nav_overlay"></div>
+    </div>
+
+
+    <!-- contact us -->
+    <div id="contact">
+      <h3 class="c-heading">Contact Us</h3>
+      <div class="contact-list">
+        <ul class="c-dect">
+          <li><i class="glyphicon glyphicon-phone-alt"></i> Hotline: 086.2723.008</li>
+          <li><i class="ti-email"></i> Email: Sensicandle@gmail.com</li>
+          <li><i class="ti-instagram"></i> Instagram: Sensicandle_4unisexguys</li>
+          <li><i class="ti-facebook"></i> Facebook: <a href="https://www.facebook.com/sensicandle.vn" >https://www.facebook.com/sensicandle.vn</a></li>
+          <li><i class="ti-google"></i> Website: <a href="http://127.0.0.1:5500/d.html">https://sites.google.com/view/sensi-candle</a></li>
+          <li><i class="ti-twitter-alt"></i> Shopee: <a href="https://shopee.vn/shop/473382838/">https://shopee.vn/shop/473382838/</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+
+
+     <!-- map -->
+
+    <div class="map">
+      <img src="slider/map.jpg">
+    </div>
+
+
+
+    <!-- footer -->
+
+
+    <div id="footer">
+      <div class="footer-list">
+        <i class="ti-instagram"></i>
+        <i class="ti-facebook"></i>
+        <i class="ti-google"></i>
+        <i class="ti-twitter-alt"></i>
+      </div>
+      <p class="powered">Powered by <a href="">Ngo Duc Dinh</a></p>
+    </div>
+   </div>
+    
+   <script>
+     var header = document.getElementById('header');
+     var butMobile = document.getElementById('menu_mobile');
+     var headerHeight = header.clientHeight;
+
+    // dong mo menu
+     butMobile.onclick = function(){
+       
+       var isClosed= header.clientHeight ===headerHeight;
+       if(isClosed){
+          header.style.height= 'auto';
+       } else{
+        header.style.height= null;
+       }
+     }
+
+     // tu dong dong mo
+     var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      for(var i=0; i<menuItems.length; i++){
+        var menuItem= menuItems[i];
+        
+        menuItem.onclick= function(event){
+          var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+          if(isParentMenu){
+           
+              event.preventDefault();
+          }else{
+            header.style.height=null;
+          }
+       }
+      }    
+   </script>
+
+</body>
+</html>
